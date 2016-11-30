@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class TImerPanel extends JPanel implements ActionListener
+public class TimerPanel extends JPanel implements ActionListener
 //this sets up the timer so it counts from 100 and counts by seconds
 {
 	JLabel setTime = new JLabel();
@@ -17,7 +17,7 @@ public class TImerPanel extends JPanel implements ActionListener
 	//Constructor: Sets up timer Panel
 	//----------------------------------------------
 
-	public TImerPanel ()
+	public TimerPanel ()
 	{
 		setBackground(Color.cyan);
 		setPreferredSize(new Dimension(400,400));
