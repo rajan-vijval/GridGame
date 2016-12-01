@@ -1,5 +1,4 @@
-
-public class gameOn 
+public  class gameOn
 {
 	public static void main(String[] args) 
 	{ 
