@@ -25,6 +25,7 @@ public class Grid extends JPanel
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.blue);
 		panel.setLayout(new GridLayout(dim, dim));
+		add(new TImerPanel()); //adds timer
 
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
